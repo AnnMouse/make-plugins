@@ -1,0 +1,25 @@
+{
+  "name": "make-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug":"node --inspect --inspect-brk node_modules/webpack/bin/webpack.js",
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnMouse/make-plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnMouse/make-plugins/issues"
+  },
+  "homepage": "https://github.com/AnnMouse/make-plugins#readme",
+  "devDependencies": {
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
